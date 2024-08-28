@@ -1,0 +1,45 @@
+.task {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task-name {
+    border-radius: 12px;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    gap: 10px;
+  }
+  
+  .check-box {
+    width: 25px;
+    height: 25px;
+  }
+
+  .remove-btn {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(185, 4, 4);
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-left: 10px;
+}
+
+.save-btn {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(6, 124, 42);
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    gap:10 px;
+}

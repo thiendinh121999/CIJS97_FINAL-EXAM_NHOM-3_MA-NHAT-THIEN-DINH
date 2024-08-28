@@ -1,0 +1,42 @@
+.task {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task-name {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+.taskinput {
+    height: 50px;
+    width: 500px;
+    font-size: 25px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.add-btn {
+    height: 50px;
+    width: 60px;
+    border: none;
+    border-radius: 12px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+
+.delete-all {
+    font-size: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+    background-color: red;
+    color: white;
+    width: 30%;
+    margin-left: 400px;
+}
+
+.all-tab-wrapper {
+    display: flex;
+    flex-direction: column;
+}
